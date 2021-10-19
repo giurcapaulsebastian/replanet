@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development ./replanet/frontend/src/index.js --output-path ./replanet/frontend/static/main.js",
-    "build": "webpack --mode production ./replanet/frontend/src/index.js --output-path ./replanet/frontend/static/main.js"
+    "dev": "webpack --mode development ./replanet/frontend/src/index.js --output-path ./replanet/frontend/static/frontend",
+    "build": "webpack --mode production ./replanet/frontend/src/index.js --output-path ./replanet/frontend/static/frontend"
   },
   "keywords": [],
   "author": "",
